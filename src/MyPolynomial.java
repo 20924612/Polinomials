@@ -92,7 +92,7 @@ public class MyPolynomial {
 		}
 		double[] coeffsP = p.getCoeffs();
 		for(int i=0; i<coeffs.length; i++) {
-			for(int j =0; i<coeffsP.length; j++) {
+			for(int j =0; j<coeffsP.length; j++) {
 				result[i + j] += coeffs[i] * coeffsP[j];
 			}
 		}
